@@ -1,5 +1,7 @@
 -- AstroCommunity: import any community modules here
 
+local use_copilot = vim.env.NVIM_USE_COPILOT == "true"
+
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
@@ -8,7 +10,9 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- ai assistant
-  { import = "astrocommunity.completion.codeium-vim" },
+  -- Use NVIM_USE_COPILOT to toggle between one or the other
+  { import = "astrocommunity.completion.codeium-vim", enabled = not use_copilot },
+  { import = "astrocommunity.completion.copilot-lua", enabled = use_copilot },
 
   -- zig lsp support
   { import = "astrocommunity.pack.zig" },
