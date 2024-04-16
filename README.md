@@ -32,7 +32,8 @@ nvim
 
 ## Feature toggles
 
-Certain feature can be toggled use Environment Variable:
+Certain feature can be toggled using Environment Variables.
+This is a list of all available configuration options:
 
 | Variable           | Description                        | Default Value |
 | ------------------ | ---------------------------------- | ------------- |
