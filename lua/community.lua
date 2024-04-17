@@ -19,4 +19,7 @@ return {
 
   -- live markdown preview
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
+  -- mini map on the side
+  { import = "astrocommunity.split-and-window.mini-map" },
 }
