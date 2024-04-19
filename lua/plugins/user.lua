@@ -2,4 +2,15 @@
 -- Here are some examples:
 
 ---@type LazySpec
-return {}
+return {
+  {
+    "zbirenbaum/copilot.lua",
+    opts = {
+      suggestion = {
+        keymap = {
+          accept = "<C-g>",
+        },
+      },
+    },
+  },
+}
