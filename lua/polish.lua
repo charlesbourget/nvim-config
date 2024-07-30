@@ -4,3 +4,4 @@
 
 -- Set up custom filetypes
 vim.filetype.add {}
+vim.api.nvim_set_keymap("v", "*", "y/\\V<C-R>=escape(@\",'/\\')<CR><CR>", { noremap = true, silent = true })

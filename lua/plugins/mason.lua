@@ -16,6 +16,7 @@ return {
         "pylsp",
         "tsserver",
         "clangd",
+        "hls",
 
         -- container
         "docker_compose_language_service",
@@ -49,7 +50,6 @@ return {
         "prettier",
         "clang-format",
         "goimports",
-        "ruff",
         "shfmt",
         "yamlfmt",
       })
