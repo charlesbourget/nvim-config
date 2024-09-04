@@ -40,7 +40,6 @@ return {
         -- linter
         "stylua",
         "cpplint",
-        "markdownlint",
         "mypy",
         "shellcheck",
         "yamllint",

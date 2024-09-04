@@ -22,6 +22,4 @@ return {
 
   -- mini map on the side
   { import = "astrocommunity.split-and-window.mini-map" },
-
-  { import = "astrocommunity.note-taking.obsidian-nvim" },
 }
