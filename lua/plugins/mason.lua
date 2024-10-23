@@ -14,7 +14,6 @@ return {
         "rust_analyzer",
         "gopls",
         "pylsp",
-        "tsserver",
         "clangd",
         "hls",
 
