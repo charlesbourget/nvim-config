@@ -42,7 +42,6 @@ return {
         "mypy",
         "shellcheck",
         "yamllint",
-        "editorconfig-checker",
 
         -- formatter
         "prettier",
