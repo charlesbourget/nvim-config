@@ -15,7 +15,6 @@ return {
         "gopls",
         "pylsp",
         "clangd",
-        "hls",
 
         -- container
         "docker_compose_language_service",

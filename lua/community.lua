@@ -11,8 +11,8 @@ return {
 
   -- ai assistant
   -- Use NVIM_USE_COPILOT to toggle between one or the other
-  { import = "astrocommunity.completion.codeium-vim", enabled = not use_copilot },
-  { import = "astrocommunity.completion.copilot-lua", enabled = use_copilot },
+  -- { import = "astrocommunity.completion.codeium-vim", enabled = not use_copilot },
+  -- { import = "astrocommunity.completion.copilot-lua", enabled = use_copilot },
 
   -- zig lsp support
   { import = "astrocommunity.pack.zig" },

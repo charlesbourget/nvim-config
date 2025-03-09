@@ -28,6 +28,7 @@ return {
 
       -- other
       "markdown",
+      "nix"
     })
   end,
 }
